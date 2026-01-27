@@ -37,7 +37,7 @@ const HeroSection = () => {
 
           {/* Title */}
           <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-foreground/80 mb-6 animate-slide-up animation-delay-200">
-            Full Stack Developer | Frontend Specialist
+            Full Stack Developer | Frontend Developer
           </h2>
 
           {/* Tagline */}
@@ -53,7 +53,7 @@ const HeroSection = () => {
               className="gradient-bg text-primary-foreground hover:opacity-90 glow-shadow animate-pulse-glow text-base px-8"
             >
               <a
-                href="https://example.com/Suruchi_Kumari_Resume.pdf"
+                href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
