@@ -80,7 +80,7 @@ const Navbar = () => {
               className="hidden md:flex gradient-bg text-primary-foreground hover:opacity-90 glow-shadow animate-pulse-glow"
             >
               <a
-                href="https://example.com/Suruchi_Kumari_Resume.pdf"
+                href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -121,7 +121,7 @@ const Navbar = () => {
                 className="gradient-bg text-primary-foreground hover:opacity-90 w-full mt-2"
               >
                 <a
-                  href="https://example.com/Suruchi_Kumari_Resume.pdf"
+                  href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
