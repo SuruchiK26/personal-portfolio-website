@@ -53,7 +53,7 @@ const HeroSection = () => {
               className="gradient-bg text-primary-foreground hover:opacity-90 glow-shadow animate-pulse-glow text-base px-8"
             >
               <a
-                href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Resume (2).pdf"
+                href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
