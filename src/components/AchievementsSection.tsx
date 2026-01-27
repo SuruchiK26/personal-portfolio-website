@@ -1,26 +1,26 @@
-import { Trophy, Users, Cloud, Code } from 'lucide-react';
+import { Award, BadgeCheck, Cloud, Medal } from 'lucide-react';
 import { useInView } from '@/hooks/useInView';
 
 const achievements = [
   {
-    icon: Trophy,
-    title: 'HackIndia Participant',
-    description: 'Participated twice in HackIndia, collaborating with teams to build innovative solutions.',
+    icon: Award,
+    title: 'Microsoft Azure Certification',
+    description: 'Certified in Microsoft Azure fundamentals, demonstrating cloud computing expertise and proficiency.',
   },
   {
-    icon: Users,
-    title: 'Cloud Krishna Community',
-    description: 'Active contributor at Cloud Krishna, a startup company focused on cloud technologies.',
+    icon: BadgeCheck,
+    title: 'Infosys Generative AI Certificate',
+    description: 'Completed Infosys certification for Generative AI for All, showcasing AI/ML knowledge.',
+  },
+  {
+    icon: Medal,
+    title: 'Coding School Azure AI Certificate',
+    description: 'Earned Azure AI Fundamentals certification from Coding School, validating AI skills on Azure platform.',
   },
   {
     icon: Cloud,
-    title: '20+ Google Cloud Badges',
+    title: '20+ Google Cloud Skill Badges',
     description: 'Earned over 20 skill badges in Google Cloud Platform through hands-on labs and challenges.',
-  },
-  {
-    icon: Code,
-    title: 'Open Source Contributor',
-    description: 'Actively contributing to open source projects and community-driven development.',
   },
 ];
 
@@ -34,10 +34,10 @@ const AchievementsSection = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="gradient-text">Achievements</span> & Experience
+            My <span className="gradient-text">Achievements</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Highlights of my journey and accomplishments
+            Certifications and accomplishments earned through dedication and hard work
           </p>
         </div>
 
