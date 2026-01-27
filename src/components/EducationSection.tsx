@@ -19,7 +19,7 @@ const educationData = [
   {
     icon: GraduationCap,
     title: 'B.Tech in Information Technology',
-    institution: 'Currently Pursuing',
+    institution: 'Rungta College of Engineering and Technology',
     score: 'Ongoing',
     year: 'Present',
   },

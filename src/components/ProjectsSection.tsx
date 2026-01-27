@@ -1,25 +1,25 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useInView } from '@/hooks/useInView';
-import projectAssignment from '@/assets/project-assignment-portal.jpg';
-import projectAzure from '@/assets/project-azure-resume.jpg';
+import projectAssignment from '@/assets/project-assignment-portal.png';
+import projectResume from '@/assets/project-resume-storage.png';
 
 const projects = [
+  {
+    title: 'Resume Storage & Tracking System',
+    description:
+      'A cloud-based application using Azure services for secure resume storage, version control, and application tracking with a stylish, responsive design.',
+    image: projectResume,
+    tags: ['Azure', 'React', 'Cloud Storage', 'REST API'],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
   {
     title: 'Online Assignment Submission Portal',
     description:
       'A full-stack MERN application for managing student assignments. Features include user authentication, file uploads, deadline tracking, and grade management.',
     image: projectAssignment,
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Resume Storage & Tracking System',
-    description:
-      'A cloud-based application using Azure services for secure resume storage, version control, and application tracking with a stylish, responsive design.',
-    image: projectAzure,
-    tags: ['Azure', 'React', 'Cloud Storage', 'REST API'],
     liveUrl: '#',
     githubUrl: '#',
   },

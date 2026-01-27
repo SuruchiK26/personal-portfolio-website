@@ -1,5 +1,5 @@
 import { useInView } from '@/hooks/useInView';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/profile-photo.png';
 
 const AboutSection = () => {
   const { ref, isInView } = useInView({ threshold: 0.2 });
