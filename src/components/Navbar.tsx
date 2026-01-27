@@ -121,7 +121,7 @@ const Navbar = () => {
                 className="gradient-bg text-primary-foreground hover:opacity-90 w-full mt-2"
               >
                 <a
-                  href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi Resume.pdf"
+                  href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
