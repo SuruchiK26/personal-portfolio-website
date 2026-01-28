@@ -33,7 +33,7 @@ const ResumeSection = () => {
               size="lg"
               className="gradient-bg text-primary-foreground hover:opacity-90 glow-shadow animate-pulse-glow text-base px-10"
               onClick={() => window.open(
-                "https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf",
+                "https://resumesto.blob.core.windows.net/resumecontainer/SuruchiKumari_Resume.pdf",
                 "_blank",
                 "noopener,noreferrer"
               )}
