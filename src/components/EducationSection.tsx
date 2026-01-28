@@ -7,14 +7,14 @@ const educationData = [
     title: '10th Board (ICSE)',
     institution: 'ICSE Board',
     score: '79%',
-    year: 'Completed',
+    year: '2020',
   },
   {
     icon: BookOpen,
-    title: '12th Board',
-    institution: 'Bihar Board',
+    title: '12th Board (BSEB)',
+    institution: 'BSEB',
     score: '80%',
-    year: 'Completed',
+    year: '2022',
   },
   {
     icon: GraduationCap,
