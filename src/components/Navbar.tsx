@@ -76,17 +76,15 @@ const Navbar = () => {
             <ThemeToggle />
             
             <Button
-              asChild
               className="hidden md:flex gradient-bg text-primary-foreground hover:opacity-90 glow-shadow animate-pulse-glow"
+              onClick={() => window.open(
+                "https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf",
+                "_blank",
+                "noopener,noreferrer"
+              )}
             >
-              <a
-                href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </a>
+              <Download className="w-4 h-4 mr-2" />
+              Resume
             </Button>
 
             {/* Mobile Menu Button */}
@@ -117,17 +115,15 @@ const Navbar = () => {
                 </a>
               ))}
               <Button
-                asChild
                 className="gradient-bg text-primary-foreground hover:opacity-90 w-full mt-2"
+                onClick={() => window.open(
+                  "https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf",
+                  "_blank",
+                  "noopener,noreferrer"
+                )}
               >
-                <a
-                  href="https://resumesto.blob.core.windows.net/resumecontainer/Suruchi_Kumari_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Download className="w-4 h-4 mr-2" />
-                  Download Resume
-                </a>
+                <Download className="w-4 h-4 mr-2" />
+                Download Resume
               </Button>
             </div>
           </div>
