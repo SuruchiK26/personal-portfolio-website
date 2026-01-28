@@ -12,7 +12,6 @@ const skills = [
   { name: 'Responsive Design', level: 90 },
   { name: 'Azure Cloud', level: 70 },
   { name: 'MongoDB', level: 75 },
-  { name: 'TypeScript', level: 70 },
 ];
 
 const SkillsSection = () => {
