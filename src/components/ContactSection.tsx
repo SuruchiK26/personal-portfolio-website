@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Send, Mail, Linkedin, Loader2, Twitter } from 'lucide-react';
+import { Send, Mail, Linkedin, Loader2, Twitter, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -66,6 +66,7 @@ const ContactSection = () => {
   };
 
   const socialLinks = [
+    { icon: Github, href: 'https://github.com/SuruchiK26', label: 'GitHub' },
     { icon: Twitter, href: 'https://x.com/Suruchi44132039', label: 'Twitter' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/suruchi-kumari-0017a528b/', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:kumarisuruchi7317@gmail.com', label: 'Email' },
