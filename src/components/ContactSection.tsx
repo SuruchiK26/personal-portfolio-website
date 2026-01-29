@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Send, Mail, Github, Linkedin, Loader2 } from 'lucide-react';
+import { Send, Mail, Linkedin, Loader2, Twitter } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -7,10 +7,10 @@ import { useInView } from '@/hooks/useInView';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
 
-// EmailJS Configuration - Replace these with your actual values from emailjs.com
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID'; // e.g., 'service_abc123'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'; // e.g., 'template_xyz789'
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY'; // e.g., 'AbCdEfGhIjKlMnOp'
+// EmailJS Configuration
+const EMAILJS_SERVICE_ID = 'service_2zo4i66';
+const EMAILJS_TEMPLATE_ID = 'template_x3m7f8r';
+const EMAILJS_PUBLIC_KEY = 'WG5gzYZcwVrK39fam';
 
 const ContactSection = () => {
   const { ref, isInView } = useInView({ threshold: 0.1 });
@@ -66,9 +66,9 @@ const ContactSection = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:suruchi@example.com', label: 'Email' },
+    { icon: Twitter, href: 'https://x.com/Suruchi44132039', label: 'Twitter' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/suruchi-kumari-0017a528b/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:kumarisuruchi7317@gmail.com', label: 'Email' },
   ];
 
   return (
