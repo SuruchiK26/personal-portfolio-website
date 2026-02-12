@@ -50,7 +50,7 @@ const Navbar = () => {
               handleNavClick('#home');
             }}
           >
-            Suruchi.dev
+            Suruchi.me
           </a>
 
           {/* Desktop Navigation */}
