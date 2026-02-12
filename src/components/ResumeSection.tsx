@@ -22,9 +22,9 @@ const ResumeSection = () => {
               <FileText className="w-10 h-10 text-primary-foreground" />
             </div>
             
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-foreground dark:text-foreground">
-              Download My <span className="gradient-text">Resume</span>
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black dark:text-foreground">
+  Download My <span className="gradient-text">Resume</span>
+</h2>
             <p className="text-muted-foreground mb-8 max-w-md mx-auto">
               Get a detailed overview of my skills, experience, and qualifications
             </p>
